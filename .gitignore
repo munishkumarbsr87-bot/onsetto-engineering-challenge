@@ -1,0 +1,41 @@
+# ==========================
+# Node.js / Playwright
+# ==========================
+node_modules/
+playwright/node_modules/
+
+# Playwright
+playwright/test-results/
+playwright/playwright-report/
+playwright/blob-report/
+playwright/.cache/
+
+# ==========================
+# Python
+# ==========================
+python-client/venv/
+python-client/__pycache__/
+python-client/.pytest_cache/
+python-client/*.pyc
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.*
+!.env.example
+
+playwright/.env
+python-client/.env
+
+# ==========================
+# IDE
+# ==========================
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
